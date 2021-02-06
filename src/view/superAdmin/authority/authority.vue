@@ -15,7 +15,7 @@
       <el-table-column label="角色名称" min-width="180" prop="authorityName"/>
       <el-table-column fixed="right" label="操作" width="460">
         <template #default="scope">
-          <el-button @click="opdendrawer(scope.row)" size="small" type="primary">设置权限</el-button>
+          <el-button @click="openDrawer(scope.row)" size="small" type="primary">设置权限</el-button>
           <el-button @click="addAuthority(scope.row.authorityId)" icon="el-icon-plus" size="small" type="primary">
             新增子角色
           </el-button>
@@ -119,6 +119,7 @@ export default defineComponent({
         authorityName: '根角色'
       }
     ])
+
     const drawer = ref(false)
     const dialogType = ref('add')
     const activeRow = reactive({})
@@ -164,7 +165,7 @@ export default defineComponent({
       Object.assign(copyForm, row)
       dialogFormVisible.value = true
     }
-    const opdendrawer = (row) => {
+    const openDrawer = (row) => {
       drawer.value = true
       Object.assign(activeRow, row)
     }
@@ -268,7 +269,7 @@ export default defineComponent({
                   type: 'success',
                   message: '复制成功！'
                 })
-                getTableData()
+                await getTableData()
               }
             }
           }
@@ -339,7 +340,7 @@ export default defineComponent({
       handleSizeChange,
       handleCurrentChange,
       addAuthority,
-      opdendrawer,
+      openDrawer,
       copyAuthorityFunc,
       editAuthority,
       dialogTitle,

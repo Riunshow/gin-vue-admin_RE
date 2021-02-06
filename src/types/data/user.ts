@@ -1,3 +1,5 @@
+import { AuthorityItem } from '@/types'
+
 // login or register参数
 export declare interface LoginParams {
   username: string;
@@ -17,7 +19,7 @@ export declare interface UserInfo {
   CreatedAt?: string;
   ID?: number;
   UpdatedAt?: string;
-  authority?: null;
+  authority?: AuthorityItem;
   authorityId?: string;
   headerImg?: string;
   nickName?: string;

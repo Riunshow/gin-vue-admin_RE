@@ -1,7 +1,52 @@
-# gin-vue3-ts-admin
+# gin-vue-admin_RE
 
-gin-vue-admin 前端的 Vue3.x + Vue-router4.x + Vuex4.x + Typescript4.x的实现版本
+gin-vue-admin 前端的重制版
+
+* 基于 Vue3.x + Vue-router4.x + Vuex4.x + Typescript4.x
+
+* 修复一些单词拼写错误, 代码规范、格式等问题
 
 一起学习 共同进步
 
 [传送门 gin-vue-admin](https://github.com/flipped-aurora/gin-vue-admin)
+
+___
+
+### 功能实现
+
+- [x] 登录
+- [x] 仪表盘主页
+- [x] 超级管理员
+    - [x] 角色管理
+    - [x] 菜单管理
+    - [x] api管理
+    - [x] 用户管理
+    - [x] 字典管理
+    - [x] 操作历史
+- [ ] 系统工具
+- [ ] 工作流功能
+- [ ] 示例文件
+- [ ] 服务器状态
+- [ ] 关于我们
+
+### TS支持 + 代码整理优化
+
+- [x] 登录
+- [x] 仪表盘主页
+- [ ] 超级管理员
+    - [ ] 角色管理
+    - [ ] 菜单管理
+    - [ ] api管理
+    - [ ] 用户管理
+    - [ ] 字典管理
+    - [ ] 操作历史
+- [ ] 系统工具
+- [ ] 工作流功能
+- [ ] 示例文件
+- [ ] 服务器状态
+- [ ] 关于我们
+
+### 待修改
+
+- [ ] 面包屑
+- [ ] layout tab
