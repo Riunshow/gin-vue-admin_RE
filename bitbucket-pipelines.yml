@@ -1,0 +1,14 @@
+# https://support.atlassian.com/bitbucket-cloud/docs/configure-bitbucket-pipelinesyml/
+image: node:12.9.0
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build and test
+          script:
+            - node -v
+      - step:
+          name: Clone
+          script:
+            - echo "Clone all the things!"

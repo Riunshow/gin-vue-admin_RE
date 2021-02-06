@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>delete copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="4-ModelArts-物体检测-无图片" transform="translate(-1619.000000, -271.000000)" fill="#77787B" fill-rule="nonzero">
+            <g id="delete-copy" transform="translate(1619.000000, 271.000000)">
+                <path d="M7,9 L9,9 L9,13 L7,13 L7,9 Z M9,2 L9,0 L7,0 L7,2 L0,2 L0,4 L2.1,4 L3,16 L3.2,16 L5,16 L11,16 L12.9,16 L13,16 L13.9,4 L16,4 L16,2 L9,2 Z M11.2,14 L4.8,14 L4.1,4 L11.9,4 L11.2,14 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

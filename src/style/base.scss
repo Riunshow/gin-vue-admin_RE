@@ -1,0 +1,106 @@
+.clearflex {
+  *zoom: 1;
+}
+
+.clearflex:after {
+  content: '';
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.fl-left {
+  float: left;
+}
+
+.fl-right {
+  float: right;
+}
+
+.mg {
+  margin: 10px !important;
+}
+
+.left-mg-xs {
+  margin-left: 6px !important;
+}
+
+.left-mg-sm {
+  margin-left: 10px !important;
+}
+
+.left-mg-md {
+  margin-left: 14px !important;
+}
+
+.top-mg-lg {
+  margin-top: 20px !important;
+}
+
+.tb-mg-lg {
+  margin: 20px 0 !important;
+}
+
+.bottom-mg-lg {
+  margin-bottom: 20px !important;
+}
+
+.left-mg-lg {
+  margin-left: 18px !important;
+}
+
+.title-1 {
+  text-align: center;
+  font-size: 32px;
+}
+
+.title-3 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.ml10 {
+  margin-left: 10px;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.word-wrap {
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}

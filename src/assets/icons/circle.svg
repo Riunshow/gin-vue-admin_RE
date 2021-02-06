@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>椭圆形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="7-标注界面" transform="translate(-53.000000, -313.000000)" fill="#777777" fill-rule="nonzero">
+            <g id="分组-9" transform="translate(41.000000, 180.000000)">
+                <g id="分组-3" transform="translate(0.000000, 12.000000)">
+                    <g id="分组-4-copy-2" transform="translate(0.000000, 109.000000)">
+                        <path d="M20,26 C23.3137085,26 26,23.3137085 26,20 C26,16.6862915 23.3137085,14 20,14 C16.6862915,14 14,16.6862915 14,20 C14,23.3137085 16.6862915,26 20,26 Z M20,28 C15.581722,28 12,24.418278 12,20 C12,15.581722 15.581722,12 20,12 C24.418278,12 28,15.581722 28,20 C28,24.418278 24.418278,28 20,28 Z" id="椭圆形"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
