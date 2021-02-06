@@ -23,8 +23,7 @@ module.exports = {
       // 把key的路径代理到target位置
       // detail: https://cli.vuejs.org/config/#devserver-proxy
       [process.env.VUE_APP_BASE_API]: {
-        target: 'http://172.20.30.159:8887/',
-        // target: 'http://139.9.113.229/',
+        target: '',
         changeOrigin: true,
         pathRewrite: {
           ['^' + process.env.VUE_APP_BASE_API]: ''
